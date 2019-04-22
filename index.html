@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Jenny's World! </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video class="love" src="Coverr-Lulu/Coverr-Lulu.webm" autoplay loop></video>
+
+    <div class="wrapper">
+        <header class="top">
+            <h1>Jenny's Collection</h1>
+        </header>
+        <nav class="flex-nav">
+            <a href="#" class="toggleNav">☰ Menu</a>
+            <ul>
+                <li><a href="./clock/index.html">Clock with JS</a></li>
+                <li><a href="./drumkit/index.html">Drumkit with JS</a></li>
+                <li><a href="#">Practice 3</a></li>
+                <li><a href="#">Practice 4</a></li>
+                <li><a href="#">Practice 5</a></li>
+                <li><a href="#">Practice 6</a></li>
+                <li class="social">
+                    <a href="https://twitter.com/whitebear1026"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social">
+                    <a href="https://www.facebook.com/chunjinsun"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social">
+                    <a href="https://github.com/whitebear1026"><i class="fa fa-github"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- <section class="hero">
+            <img src="http://lorempixel.com/1000/600/abstract">
+        </section> -->
+
+        <section class="details">
+            <p>I have been learning to code since March 20th 2019.</p>
+            <p>Currently learning HTML/CSS/JavaScript/React JS.</p>
+        </section>
+
+        <footer>
+            <p>&copy; Jinsun Chun</p>
+        </footer>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+
+        $(function () {
+            $('.toggleNav').on('click', function () {
+                $('.flex-nav ul').toggleClass('open');
+            });
+        });
+
+    </script>
+</body>
+
+</html>
