@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
 }
 
+title {
+    text-align: center;
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
